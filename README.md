@@ -2,15 +2,7 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=27&pause=1200&color=58A6FF&center=true&vCenter=true&width=760&lines=%E4%BD%A0%E5%A5%BD%EF%BC%8C%E6%88%91%E6%98%AF+sexyfeifan;Building+tools+for+real+workflows;Media+safety+%C2%B7+Local-first+%C2%B7+macOS+%C2%B7+Self-hosting)](https://git.io/typing-svg)
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" />
-  <source media="(prefers-color-scheme: light)" srcset="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/developer.svg" />
-  <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/coding.gif" width="520" alt="Developer at work" />
-</picture>
-
-<br />
+<img src="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/assets/workflow-console.svg" width="100%" alt="sexyfeifan workflow lab — build for the real workflow" />
 
 <p>
   <a href="https://github.com/sexyfeifan"><img src="https://img.shields.io/badge/GitHub-sexyfeifan-181717?style=flat-square&logo=github&logoColor=white" alt="GitHub profile" /></a>
@@ -19,18 +11,19 @@
   <img src="https://komarev.com/ghpvc/?username=sexyfeifan&label=Profile%20views&color=orange&style=flat-square" alt="Profile views" />
 </p>
 
-<p><strong>把真实工作流，做成可靠、顺手、可以长期使用的软件。</strong></p>
-<p><sub>Make the invisible parts of work visible, verifiable and dependable.</sub></p>
+<p>
+  <a href="#user-content-about">ABOUT</a> ·
+  <a href="#user-content-focus">FOCUS</a> ·
+  <a href="#user-content-projects">PROJECTS</a> ·
+  <a href="#user-content-activity">ACTIVITY</a> ·
+  <a href="#user-content-stack">STACK</a>
+</p>
 
 </div>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/profile-snake-contrib/github-contribution-grid-snake.svg" />
-  <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/profile-snake-contrib/github-contribution-grid-snake.svg" />
-</picture>
+<a id="about"></a>
 
-## 🙋 关于我
+## 01 / 关于我
 
 <table>
   <tr>
@@ -47,12 +40,20 @@
       <p><strong>每一份数据都值得被认真对待，每一次操作都应该有清楚的状态。</strong></p>
     </td>
     <td width="120" align="center" valign="middle">
-      <img width="96" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/jobs.png" alt="Work" />
+      <a href="https://github.com/sexyfeifan"><img width="104" src="https://avatars.githubusercontent.com/u/36148825?v=4" alt="sexyfeifan avatar" /></a>
     </td>
   </tr>
 </table>
 
-## 🚀 核心项目
+<a id="focus"></a>
+
+## 02 / 当前焦点
+
+<p>
+  <img src="https://img.shields.io/badge/STATUS-ACTIVE-3FB950?style=flat-square" alt="Active" />
+  <img src="https://img.shields.io/badge/PRINCIPLE-LOCAL_FIRST-2DD4BF?style=flat-square" alt="Local first" />
+  <img src="https://img.shields.io/badge/QUALITY-VERIFIABLE-58A6FF?style=flat-square" alt="Verifiable" />
+</p>
 
 <table>
   <tr>
@@ -100,11 +101,11 @@
   </tr>
 </table>
 
-<img width="100%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" alt="Section divider" />
+<img width="100%" src="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/assets/workflow-divider.svg" alt="Capture, verify, organize, automate" />
 
+<a id="projects"></a>
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/man_run.png" width="190" alt="Keep building" />
-  <h2>🧭 项目地图</h2>
+  <h2>03 / 项目地图</h2>
   <p>公开账号现有 36 个仓库；下面是除主页与 forks 外的全部 21 个原创项目。</p>
 </div>
 
@@ -153,11 +154,11 @@
   <a href="https://github.com/sexyfeifan?tab=repositories"><strong>查看全部公开仓库与 forks →</strong></a>
 </div>
 
-<img width="100%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" alt="Section divider" />
+<img width="100%" src="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/assets/workflow-divider.svg" alt="Capture, verify, organize, automate" />
 
+<a id="activity"></a>
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/mb.png" width="190" alt="GitHub activity" />
-  <h2>📊 构建轨迹</h2>
+  <h2>04 / 构建轨迹</h2>
 
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=sexyfeifan&theme=github_dark" />
@@ -189,13 +190,19 @@
     <source media="(prefers-color-scheme: light)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=sexyfeifan&theme=default&hide_border=true" />
     <img src="https://github-readme-streak-stats.herokuapp.com/?user=sexyfeifan&theme=github-dark-blue&hide_border=true" alt="GitHub contribution streak" />
   </picture>
+
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/profile-snake-contrib/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/profile-snake-contrib/github-contribution-grid-snake.svg" />
+    <img alt="GitHub contribution snake" src="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/profile-snake-contrib/github-contribution-grid-snake.svg" />
+  </picture>
 </div>
 
-<img width="100%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" alt="Section divider" />
+<img width="100%" src="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/assets/workflow-divider.svg" alt="Capture, verify, organize, automate" />
 
+<a id="stack"></a>
 <div align="center">
-  <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/man.png" width="190" alt="Technology stack" />
-  <h2>🛠 技术栈</h2>
+  <h2>05 / 技术栈</h2>
 
   <p>
     <img src="https://skillicons.dev/icons?i=swift,ts,js,rust,python,electron,tauri,react,nextjs,astro,docker,git,githubactions,vscode,figma,apple&perline=8" alt="Technology icons" />
@@ -212,14 +219,4 @@
   </p>
 </div>
 
-<img width="100%" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/hr.gif" alt="Section divider" />
-
-<div align="center">
-  <img width="220" src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/githubgif.gif" alt="GitHub" />
-
-  <h3>代码最终要回到真实世界。</h3>
-  <p>更少的重复操作 · 更清楚的状态 · 更可靠的数据</p>
-  <p><sub>Less repetition · Clearer state · Safer data</sub></p>
-
-  <img src="https://cdn.jsdelivr.net/gh/sun0225SUN/sun0225SUN/assets/images/icon.png" alt="Footer decoration" />
-</div>
+<img width="100%" src="https://raw.githubusercontent.com/sexyfeifan/sexyfeifan/main/assets/footer-signal.svg" alt="Less repetition, clearer state, safer data" />

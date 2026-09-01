@@ -1,0 +1,148 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="500" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">sexyfeifan workflow lab</title>
+  <desc id="desc">An animated control-room banner showing media capture, verification, organization, and automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0c1b31"/>
+      <stop offset="1" stop-color="#111b2e"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#58a6ff"/>
+      <stop offset="0.52" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#f59e0b"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#13243d"/>
+      <stop offset="1" stop-color="#0b1729"/>
+    </linearGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M32 0H0V32" fill="none" stroke="#8fb8e8" stroke-opacity="0.06"/>
+    </pattern>
+    <filter id="glow" x="-80%" y="-80%" width="260%" height="260%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="windowClip"><rect x="690" y="86" width="428" height="300" rx="18"/></clipPath>
+    <style>
+      .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+      .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      .pulse { animation: pulse 2.4s ease-in-out infinite; transform-box: fill-box; transform-origin: center; }
+      .blink { animation: blink 1.15s steps(2, end) infinite; }
+      .scan { animation: scan 5s linear infinite; }
+      .float { animation: float 5s ease-in-out infinite; }
+      .wave1 { animation: wave 1.2s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center bottom; }
+      .wave2 { animation: wave 1.6s .2s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center bottom; }
+      .wave3 { animation: wave 1.05s .4s ease-in-out infinite alternate; transform-box: fill-box; transform-origin: center bottom; }
+      @keyframes pulse { 0%,100% { opacity:.48; transform:scale(.86) } 50% { opacity:1; transform:scale(1.12) } }
+      @keyframes blink { 0%,46% { opacity:1 } 47%,100% { opacity:0 } }
+      @keyframes scan { from { transform:translateX(-470px) } to { transform:translateX(470px) } }
+      @keyframes float { 0%,100% { transform:translateY(0) } 50% { transform:translateY(-8px) } }
+      @keyframes wave { from { transform:scaleY(.28) } to { transform:scaleY(1) } }
+      @media (prefers-reduced-motion: reduce) {
+        .pulse,.blink,.scan,.float,.wave1,.wave2,.wave3 { animation:none }
+      }
+    </style>
+  </defs>
+
+  <rect width="1200" height="500" rx="28" fill="url(#bg)"/>
+  <rect width="1200" height="500" rx="28" fill="url(#grid)"/>
+  <rect x="1" y="1" width="1198" height="498" rx="27" fill="none" stroke="#355274" stroke-opacity="0.72"/>
+
+  <path d="M38 72V38h34M1128 38h34v34M38 428v34h34M1128 462h34v-34" fill="none" stroke="#58a6ff" stroke-width="2" stroke-opacity="0.55"/>
+  <rect x="38" y="38" width="1124" height="2" fill="url(#accent)" opacity="0.75"/>
+
+  <g class="mono" font-size="13" letter-spacing="1.8">
+    <text x="62" y="76" fill="#8fb8e8">SEXYFEIFAN / WORKFLOW LAB</text>
+    <circle cx="1030" cy="71" r="5" fill="#3fb950" filter="url(#glow)" class="pulse"/>
+    <text x="1044" y="76" fill="#8fe3ae">SYSTEM ONLINE</text>
+  </g>
+
+  <g class="sans">
+    <text x="62" y="155" fill="#f3f7fc" font-size="50" font-weight="760" letter-spacing="-1.5">BUILD FOR THE</text>
+    <text x="62" y="211" fill="url(#accent)" font-size="50" font-weight="760" letter-spacing="-1.5">REAL WORKFLOW.</text>
+    <text x="64" y="251" fill="#9db1ca" font-size="19">把真实工作流，做成可靠、顺手、可以长期使用的软件。</text>
+  </g>
+
+  <g class="mono" font-size="12">
+    <g transform="translate(64 300)">
+      <rect width="250" height="58" rx="10" fill="#0b1729" stroke="#294664"/>
+      <circle cx="22" cy="21" r="5" fill="#58a6ff" class="pulse"/>
+      <text x="38" y="25" fill="#dbeafe" letter-spacing="1.2">MEDIA SAFETY</text>
+      <text x="18" y="45" fill="#7089a7">copy · checksum · archive</text>
+    </g>
+    <g transform="translate(330 300)">
+      <rect width="250" height="58" rx="10" fill="#0b1729" stroke="#294664"/>
+      <circle cx="22" cy="21" r="5" fill="#2dd4bf" class="pulse"/>
+      <text x="38" y="25" fill="#d5fbf4" letter-spacing="1.2">LOCAL FIRST</text>
+      <text x="18" y="45" fill="#7089a7">device · iCloud · NAS</text>
+    </g>
+  </g>
+
+  <g transform="translate(64 397)" class="mono" font-size="11" letter-spacing="1">
+    <rect width="112" height="30" rx="15" fill="#12233a" stroke="#355274"/>
+    <text x="20" y="20" fill="#b8d7fa">macOS</text>
+    <rect x="124" width="112" height="30" rx="15" fill="#12233a" stroke="#355274"/>
+    <text x="143" y="20" fill="#b8d7fa">SwiftUI</text>
+    <rect x="248" width="112" height="30" rx="15" fill="#12233a" stroke="#355274"/>
+    <text x="265" y="20" fill="#b8d7fa">Tauri</text>
+    <rect x="372" width="112" height="30" rx="15" fill="#12233a" stroke="#355274"/>
+    <text x="386" y="20" fill="#b8d7fa">Docker</text>
+  </g>
+
+  <g class="float">
+    <rect x="670" y="66" width="468" height="340" rx="22" fill="#07101d" stroke="#3b5878" stroke-width="2"/>
+    <rect x="690" y="86" width="428" height="300" rx="18" fill="url(#panel)"/>
+    <g clip-path="url(#windowClip)">
+      <rect x="690" y="86" width="428" height="34" fill="#172942"/>
+      <circle cx="712" cy="103" r="5" fill="#ff7b72"/>
+      <circle cx="730" cy="103" r="5" fill="#f2cc60"/>
+      <circle cx="748" cy="103" r="5" fill="#3fb950"/>
+      <text x="771" y="108" fill="#8fb8e8" font-size="11" class="mono">workflow.session</text>
+
+      <g class="mono" font-size="10">
+        <rect x="712" y="145" width="104" height="102" rx="10" fill="#0a1729" stroke="#355274"/>
+        <rect x="730" y="164" width="46" height="35" rx="4" fill="#173456" stroke="#58a6ff"/>
+        <path d="M730 178h46M743 164v35M764 164v35" stroke="#58a6ff" stroke-opacity="0.45"/>
+        <text x="730" y="220" fill="#b8d7fa">CAPTURE</text>
+        <text x="730" y="236" fill="#607c9c">SOURCE 01</text>
+
+        <rect x="852" y="145" width="104" height="102" rx="10" fill="#0a1729" stroke="#355274"/>
+        <circle cx="904" cy="181" r="20" fill="none" stroke="#2dd4bf" stroke-width="4" stroke-dasharray="78 48" class="pulse"/>
+        <path d="m895 181 7 7 13-15" fill="none" stroke="#8ff3dc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <text x="876" y="220" fill="#d5fbf4">VERIFY</text>
+        <text x="872" y="236" fill="#607c9c">SHA-256</text>
+
+        <rect x="992" y="145" width="104" height="102" rx="10" fill="#0a1729" stroke="#355274"/>
+        <ellipse cx="1044" cy="168" rx="25" ry="8" fill="#3b2a0a" stroke="#f59e0b"/>
+        <path d="M1019 168v35c0 4 11 8 25 8s25-4 25-8v-35" fill="#281f0d" stroke="#f59e0b"/>
+        <path d="M1019 185c0 4 11 8 25 8s25-4 25-8" fill="none" stroke="#f59e0b"/>
+        <text x="1021" y="226" fill="#fee7b0">ARCHIVE</text>
+        <text x="1024" y="241" fill="#607c9c">3 COPIES</text>
+      </g>
+
+      <path id="routeA" d="M816 196H852" stroke="#58a6ff" stroke-width="2" stroke-dasharray="4 5"/>
+      <path id="routeB" d="M956 196H992" stroke="#f59e0b" stroke-width="2" stroke-dasharray="4 5"/>
+      <circle r="4" fill="#dbeafe" filter="url(#glow)"><animateMotion dur="1.8s" repeatCount="indefinite" path="M816 196H852"/></circle>
+      <circle r="4" fill="#fff0c7" filter="url(#glow)"><animateMotion dur="1.8s" begin=".9s" repeatCount="indefinite" path="M956 196H992"/></circle>
+
+      <rect x="712" y="276" width="384" height="82" rx="10" fill="#081423" stroke="#294664"/>
+      <text x="730" y="300" fill="#7fa1c5" font-size="10" class="mono" letter-spacing="1">LIVE SIGNAL / VOICE + DATA</text>
+      <g transform="translate(730 316)" fill="#58a6ff">
+        <rect width="6" height="24" rx="3" class="wave1"/>
+        <rect x="12" width="6" height="34" rx="3" class="wave2"/>
+        <rect x="24" width="6" height="18" rx="3" class="wave3"/>
+        <rect x="36" width="6" height="30" rx="3" class="wave2"/>
+        <rect x="48" width="6" height="13" rx="3" class="wave1"/>
+        <rect x="60" width="6" height="28" rx="3" class="wave3"/>
+        <rect x="72" width="6" height="20" rx="3" class="wave2"/>
+      </g>
+      <text x="840" y="336" fill="#b8d7fa" font-size="11" class="mono">TRANSCRIBE → ORGANIZE → SHIP</text>
+      <text x="840" y="351" fill="#607c9c" font-size="9" class="mono">state: verified / local / recoverable</text>
+
+      <rect x="690" y="86" width="72" height="300" fill="url(#accent)" opacity="0.06" class="scan"/>
+    </g>
+  </g>
+
+  <text x="1136" y="446" text-anchor="end" fill="#516b89" font-size="10" class="mono" letter-spacing="1.4">SHANGHAI · UTC+08 · 2026</text>
+</svg>
