@@ -1,3 +1,7 @@
+# Archived on 2026-10-05: the profile no longer uses these generated cards,
+# and METRICS_TOKEN is rejected by GitHub (401 Bad credentials).
+# GitHub only runs files in .github/workflows/. To restore this workflow,
+# provide a valid token and move this file back into that directory.
 name: GitHub Metrics
 
 on:
